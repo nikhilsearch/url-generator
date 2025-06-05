@@ -25,6 +25,8 @@ Manually constructing URLs for SEO purposes can be time-consuming and prone to e
 * Transforms spaces in keywords, categories and sub-categories into hyphens, making them SEO-friendly.
 * Removes any trailing slashes from the domain to avoid duplicate separators.
 * Supports an optional sub-category field for more detailed URL structuring.
+* Clears the URL cell if any required field is missing.
+* Works when pasting data across multiple rows at once.
 
 ## 3.1. How Does It Work? 
 * Column A: Domain
