@@ -21,8 +21,9 @@ Manually constructing URLs for SEO purposes can be time-consuming and prone to e
 
 ## 3. Features:
 * Automatically builds URLs using values entered in specific columns.
-* Encodes categories and keywords for valid URL formatting.
-* Transforms spaces in keywords into hyphens, making them SEO-friendly.
+* Encodes categories, sub-categories and keywords for valid URL formatting.
+* Transforms spaces in keywords, categories and sub-categories into hyphens, making them SEO-friendly.
+* Removes any trailing slashes from the domain to avoid duplicate separators.
 * Supports an optional sub-category field for more detailed URL structuring.
 
 ## 3.1. How Does It Work? 
